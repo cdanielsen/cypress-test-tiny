@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Small project for quickly testing Cypress.io test runner",
   "scripts": {
+    "test:noexit": "cypress run --no-exit",
     "cypress:run": "cypress run",
     "cypress:open": "cypress open",
     "cypress:verify": "cypress verify",
@@ -15,7 +16,8 @@
   "license": "ISC",
   "devDependencies": {
     "commit-message-install": "1.10.1",
-    "ok-file": "1.4.0"
+    "ok-file": "1.4.0",
+    "cypress": "3.0.2"
   },
   "repository": {
     "type": "git",
