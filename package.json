@@ -6,6 +6,7 @@
     "cypress:run": "cypress run",
     "cypress:run:windows": "SET \"CYPRESS_CONFIG_FILE=qa\" && SET \"CYPRESS_SOME_VAR=someValue\" && cypress run",
     "cypress:run:nix": "CYPRESS_CONFIG_FILE=qa CYPRESS_SOME_VAR=someValue cypress run",
+    "cypress:run:cli-env": "cypress run --env CONFIG_FILE=qa,SOME_VAR=someValue",
     "cypress:open": "cypress open",
     "cypress:verify": "cypress verify",
     "cypress:version": "cypress version",
